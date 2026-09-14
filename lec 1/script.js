@@ -26,13 +26,14 @@ console.log(age); // --> piyush
 //Let
 let a = 25;
 a = 333
-console.log(a);
+console.log(a); // 333
 
 if (true) {
     let age = 23;
-    console.log(age);
-    console.log(a);
+    console.log(age); //23
+    console.log(a); // 333
 }
+
 
 //Const --> scope = always local
 // Imp: Have tto assignn vaue to const you can't write just const a; you have to write const a = "hello"
